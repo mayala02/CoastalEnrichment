@@ -1,0 +1,9 @@
+mintpy.load.processor        = hyp3
+##---------interferogram datasets:
+mintpy.load.unwFile          = rawData/*/*unw_phase_crop.tif
+mintpy.load.corFile          = rawData/*/*corr_crop.tif
+##---------geometry datasets:
+mintpy.load.demFile          = rawData/*/*dem_crop.tif
+mintpy.load.incAngleFile     = rawData/*/*lv_theta_crop.tif
+mintpy.load.azAngleFile      = rawData/*/*lv_phi_crop.tif
+mintpy.load.waterMaskFile    = rawData/*/*water_mask_crop.tif
